@@ -1,8 +1,11 @@
-# Simplilearn-Analysis-of-Sales-Report-of-Clothes-Manufacturing-Outlet
-Analysis-of-Sales-Report-of-Clothes-Manufacturing-Outlet
-Analysis-of-Sales-Report-of-a-Clothes-Manufacturing-Outlet
-A high-end fashion retail store is looking to expand its products. It wants to understand the market and find the current trends in the industry. It has a database of all products with attributes, such as style, material, season, and the sales of the products over a period of two months.
+Comcast-Telecom-Consumer-Complaints.
+Comcast Telecom Consumer Complaints. (R project)
 
-Analysis Tasks: The goals of this project are:
+DESCRIPTION Comcast is an American global telecommunication company. The firm has been providing terrible customer service. They continue to fall short despite repeated promises to improve. Only last month (October 2016) the authority fined them a $2.3 million, after receiving over 1000 consumer complaints. The existing database will serve as a repository of public customer complaints filed against Comcast. It will help to pin down what is wrong with Comcast's customer service. Data Dictionary • Ticket #: Ticket number assigned to each complaint • Customer Complaint: Description of complaint • Date: Date of complaint • Time: Time of complaint • Received Via: Mode of communication of the complaint • City: Customer city • State: Customer state • Zipcode: Customer zip • Status: Status of complaint • Filing on behalf of someone Analysis Task
 
-To automate the process of recommendations, the store needs to analyze the given attributes of the product, like the style, season, etc., and come up with a model to predict the recommendation of products (in binary output – 0 or 1) accordingly. In order to stock the inventory, the store wants to analyze the sales data and predict the trend of total sales for each dress for an extended period of three more alternative days. To decide the pricing for various upcoming clothes, they wish to find how the style, season, and material affect the sales of a dress and if the style of the dress is more influential than its price. Also, to increase sales, the management wants to analyze the attributes of dresses and find which are the leading factors affecting the sale of a dress. To regularize the rating procedure and find its efficiency, the store wants to find if the rating of the dress affects the total sales
+Import data into R environment.
+Provide the trend chart for the number of complaints at monthly and daily granularity levels.
+Provide a table with the frequency of complaint types. • Which complaint types are maximum i.e., around internet, network issues, or across any other domains.
+Create a new categorical variable with value as Open and Closed. Open & Pending is to be categorized as Open and Closed & Solved is to be categorized as Closed.
+Provide state wise status of complaints in a stacked bar chart. Use the categorized variable from Q3. Provide insights on: • Which state has the maximum complaints • Which state has the highest percentage of unresolved complaints
+Provide the percentage of complaints resolved till date, which were received through theInternet and customer care calls. The analysis results to be provided with insights wherever applicable.
